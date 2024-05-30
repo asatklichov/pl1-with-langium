@@ -1,0 +1,15 @@
+{
+    "projectName": "BahbitBola",
+    "languages": [{
+        "id": "bahbit-bola",
+        "grammar": "src/language/bahbit-bola.langium",
+        "fileExtensions": [".pl1"],
+        "textMate": {
+            "out": "syntaxes/bahbit-bola.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/bahbit-bola.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
